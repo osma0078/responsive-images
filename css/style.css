@@ -42,7 +42,7 @@ li {
 
  /* Four Column Layout */
  
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
 li {
     float: left;
     width: 25%;
