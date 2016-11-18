@@ -1,1 +1,50 @@
+*{
+    box-sizing: border-box;
+}
 
+html {
+    background-color: darkslategrey;
+}
+
+.container {
+    margin: 1rem;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul img{
+    width: 100%;
+    display: block;
+    height: auto;
+    border: 2px solid black;
+}
+
+ul li {
+    margin: 0 0 1rem 0;
+}
+
+picture,img {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Two Column Layout */
+
+@media screen and (min-width:600px) and (max-width: 1200px) {
+li {
+    float: left;
+    width: 50%;
+    }
+}
+
+ /* Four Column Layout */
+ 
+@media screen and (min-width:1200px) {
+li {
+    float: left;
+    width: 25%;
+    }
+}
